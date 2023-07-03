@@ -100,6 +100,7 @@ export const categories = [
 
 const Catagories = () => {
   const params = useSearchParams();
+
   const category = params?.get("category");
   const pathname = usePathname();
   const isMainPage = pathname === "/";
@@ -121,7 +122,12 @@ const Catagories = () => {
            "
       >
         {categories.map((item) => (
-          <CategoryBox key={item.label} label={item.label} icon={item.icon} selected ={category === item.label}/>
+          <CategoryBox
+            key={item.label}
+            label={item.label}
+            icon={item.icon}
+            selected={category === item.label}
+          />
         ))}
       </div>
     </Container>
