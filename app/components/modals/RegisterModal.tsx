@@ -105,7 +105,7 @@ const RegisterModal = () => {
       />
       <div
         className="
-          text-neutral-500 
+          text-neutral-400 
           text-center 
           mt-4 
           font-light
