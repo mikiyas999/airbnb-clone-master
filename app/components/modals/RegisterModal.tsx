@@ -122,7 +122,7 @@ const RegisterModal = () => {
             "
           >
             {" "}
-            Log in
+            Log-in
           </span>
         </p>
       </div>
