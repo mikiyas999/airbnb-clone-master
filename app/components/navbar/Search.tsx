@@ -42,7 +42,7 @@ const Search = () => {
              text-sm
              font-bold
              px-6
-             border-x-[1px]
+             border-x-[2px]
              flex-1
              text-center
             "
